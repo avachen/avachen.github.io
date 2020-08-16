@@ -5,7 +5,23 @@
 
 .landing-title {
     color: $post-title-color;
-    text-align: center;
-    border-bottom: 1px solid #c0c0c0;
+    font-weight: lighter;
+    text-align: left;
     padding-bottom: 0.7rem;
 }
+
+.landing-photo img{
+	float: left;
+	clear: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	width: 33%;
+}
+
+.landing-content{
+	test-align: justify;
+	text-justify: inter-word;
+}
+
+.clear{clear:both;}
