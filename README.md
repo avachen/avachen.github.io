@@ -1,7 +1,9 @@
-# celeste
-Theme is Celeste, by nicoelayada. Using MIT license. Powered by Jekyll.
-https://github.com/nicoelayda/celeste
+# avachen.in
+Research website for Ava Chen. Site theme is Celeste, by nicoelayada. Using CC by 4.0 license. Powered by Jekyll. Hosted by github pages.
+https://www.avachen.in
 
 ## License
 
-MIT. See [LICENSE](https://github.com/nicoelayda/celeste/blob/master/LICENSE).
+Creative Commons Attribution 4.0 International. See (https://creativecommons.org/licenses/by/4.0/deed.ast)
+
+Original Celeste website template uses MIT license. See (https://github.com/nicoelayda/celeste/blob/master/LICENSE).

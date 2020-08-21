@@ -31,6 +31,36 @@
     }
   }
 
+  li.cv {
+    display: inline-block;
+    vertical-align: bottom;
+
+    a {
+      color: $nav-link-color;
+      display: block;
+      text-decoration: none;
+      padding-top: $nav-link-padding-y;
+      padding-bottom: $nav-link-padding-y;
+      padding-left: $nav-link-padding-x;
+      padding-right: .5rem;
+    }
+  }
+
+  li.res {
+    display: inline-block;
+    vertical-align: bottom;
+
+    a {
+      color: $nav-link-color;
+      display: block;
+      text-decoration: none;
+      padding-top: $nav-link-padding-y;
+      padding-bottom: $nav-link-padding-y;
+      padding-left: .5rem;
+      padding-right: $nav-link-padding-x;
+    }
+  }
+
   li.name {
     display: inline-block;
     vertical-align: bottom;
