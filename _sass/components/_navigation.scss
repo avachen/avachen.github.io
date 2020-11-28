@@ -26,6 +26,9 @@
     a {
       color: $nav-link-color;
       display: block;
+      font-size: large;
+      font-family: 'Gruppo', cursive;
+      font-weight: bold;
       text-decoration: none;
       padding: $nav-link-padding-y $nav-link-padding-x;
     }
@@ -74,8 +77,9 @@
       color: $nav-link-color;
       display: block;
       test-decoration: none;
+      font-family: 'Gruppo', cursive;
+      font-weight: bold;
       font-size: xx-large;
-      font-stretch: extra-condensed;
       padding: $nav-name-padding-y $nav-name-padding-x;
     }
 
