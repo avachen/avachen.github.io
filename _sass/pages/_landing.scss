@@ -11,9 +11,7 @@
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 	@media(max-width: 38em) {
-		left: 0%;
-		-ms-transform: translateX(0%);
-		transform: translateX(0%);
+		width: 100%;
 	)
 }
 
