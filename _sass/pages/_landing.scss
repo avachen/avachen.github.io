@@ -11,19 +11,15 @@
     flex-grow: 1;
     @media(max-width: 38em){
         grid-template-columns: 1fr;
-        margin-left = auto;
-        margin-right = auto;
     }
 }
 
 .landing-page{
-    margin: 0;
-    position: absolute;
-    @media(max-width: 38em) {
-        width: 100%;
-        padding-left: auto;
-        padding-right: auto;
-    }
+	margin: auto;
+    padding-left: 10%;
+	@media(max-width: 38em) {
+    padding-left: 0;
+	}
 }
 
 .centerImage {
@@ -49,7 +45,7 @@
 	text-justify: inter-word;
     @media(max-width: 38em){
         padding-top: 0;
-        text-align: center;
+        test-align: center;
         width: 100%;
     }
 }
