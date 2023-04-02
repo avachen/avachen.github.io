@@ -1,6 +1,6 @@
-# avachen.in
+# avachen.net
 Research website for Ava Chen. Site theme is Celeste, by nicoelayada. Using CC by 4.0 license. Powered by Jekyll. Hosted by github pages.
-https://www.avachen.in
+https://www.avachen.net
 
 ## License
 

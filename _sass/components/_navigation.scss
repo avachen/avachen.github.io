@@ -30,7 +30,8 @@
       font-family: 'Gruppo', cursive;
       font-weight: bold;
       text-decoration: none;
-      padding: $nav-link-padding-y $nav-link-padding-x;
+      padding-left: $nav-link-padding-x;
+      padding-right: $nav-link-padding-x;
     }
   }
 
@@ -42,10 +43,8 @@
       color: $nav-link-color;
       display: block;
       text-decoration: none;
-      padding-top: $nav-link-padding-y;
-      padding-bottom: $nav-link-padding-y;
       padding-left: $nav-link-padding-x;
-      padding-right: .5rem;
+      padding-right: $nav-link-padding-x;
     }
   }
 
@@ -57,9 +56,7 @@
       color: $nav-link-color;
       display: block;
       text-decoration: none;
-      padding-top: $nav-link-padding-y;
-      padding-bottom: $nav-link-padding-y;
-      padding-left: .5rem;
+      padding-left: $nav-link-padding-x;
       padding-right: $nav-link-padding-x;
     }
   }
@@ -70,7 +67,10 @@
     margin-right: 30%;
 
     @media (max-width: 800px) {
-    margin-right: 2rem;
+    display: block;
+    padding-bottom: 2%;
+    margin: auto;
+    text-align: center;
   }
 
     a {
@@ -78,9 +78,10 @@
       display: block;
       test-decoration: none;
       font-family: 'Gruppo', cursive;
-      font-weight: bold;
-      font-size: xx-large;
-      padding: $nav-name-padding-y $nav-name-padding-x;
+      font-weight: bolder;
+      font-size: 250%;
+      padding-left: $nav-name-padding-x;
+      padding-right: $nav-name-padding-x;
     }
 
   }
@@ -93,7 +94,7 @@
     height: 1.6em;
     border-radius: 50px;
     line-height: 1.6em;
-    margin: 0 1rem;
+    margin: 0.1rem;
     padding: 0;
   }
 

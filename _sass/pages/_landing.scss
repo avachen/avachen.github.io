@@ -7,10 +7,11 @@
     display: grid;
     width: 100%;
     grid-template-columns: 200px auto;
-    grid-column-gap: 50px;
+    grid-column-gap: 8%;
     flex-grow: 1;
     @media(max-width: 38em){
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-flow: wrap-reverse;
     }
 }
 
@@ -18,7 +19,7 @@
 	margin: auto;
     padding-left: 10%;
 	@media(max-width: 38em) {
-    padding-left: 0;
+        padding-left: 0;
 	}
 }
 
@@ -41,8 +42,7 @@
 .landing-content{
 	padding-top: 10vh;
     width: 80%;
-	test-align: justify;
-	text-justify: inter-word;
+    text-align: left;
     @media(max-width: 38em){
         padding-top: 0;
         test-align: center;
@@ -51,10 +51,10 @@
 }
 
 .section-1{
-    padding-top: 10vh;
+    padding-top: 11vh;
     text-align: center;
     @media(max-width: 38em){
-        padding-top: 0;
+        padding-top: 5%;
     }
 }
 
