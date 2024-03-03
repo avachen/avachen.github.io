@@ -73,7 +73,7 @@
 .clear{clear:both;}
 
 p.sidebar{
-    color:#515151;
+    color:$body-text-color;
     font-size:10pt;
     margin:0;
     font-weight:500;
@@ -81,7 +81,7 @@ p.sidebar{
 }
 
 a.sidebar{
-    color:#515151;
+    color:$body-text-color;
     font-size:10pt;
     margin:0;
     font-weight:500;
