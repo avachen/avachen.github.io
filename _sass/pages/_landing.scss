@@ -11,7 +11,7 @@
     flex-grow: 1;
     @media(max-width: 38em){
         display: flex;
-        flex-flow: wrap-reverse;
+        flex-flow: wrap;
     }
 }
 
