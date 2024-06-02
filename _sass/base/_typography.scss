@@ -85,6 +85,11 @@ abbr {
   }
 }
 
+sup {
+  display: inline-block;
+  line-height:0; 
+}
+
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
