@@ -14,10 +14,12 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-content">
 		<h3>Volitional Control of the Paretic Hand Post-Stroke Increases Finger Stiffness and Resistance to Robot-Assisted Movement</h3>
 		<strong>Ava Chen*</strong><span style="color:#767676">, Katelyn Lee*, Lauren Winterbottom, Jingxi Xu, Connor Lee<sup>&dagger;</sup>, Grace Munger<sup>&dagger;</sup>, Alexandra Deli-Ivanov<sup>&dagger;</sup>, Dawn M. Nilsen, Joel Stein, and Matei Ciocarlie</span><br>
-		<em>Accepted to IEEE 2024 RAS/EMBS Intl. Conference on Biomedical Robotics and Biomechatronics (BioRob)
+		<em>IEEE 2024 RAS/EMBS Intl. Conference on Biomedical Robotics and Biomechatronics (BioRob)
 		</em><br>
 		<a href="https://arxiv.org/abs/2402.08019">arXiv</a>
 		/ 
+		<a href="https://youtu.be/RQRazC-o44I">video</a>
+		/
 		<a id="show_chen2024_volitional" href="#show_chen2024_volitional" class="hide">abstract (+)</a>
 		<a id="hide_chen2024_volitional" href="#hide_chen2024_volitional" class="show">abstract (-)</a>
 		<p class="details">
@@ -32,13 +34,35 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-content">
 		<h3>Grasp Force Assistance via Throttle-based Wrist Angle Control on a Robotic Hand Orthosis for C6-C7 Spinal Cord Injury</h3>
 		<span style="color:#767676">Joaquin Palacios*<sup>&dagger;</sup>, Alexandra Deli-Ivanov*<sup>&dagger;</sup>,</span> <strong>Ava Chen*</strong><span style="color:#767676">, Lauren Winterbottom, Dawn M. Nilsen, Joel Stein, and Matei Ciocarlie</span><br>
-		<em>Accepted to IEEE Transactions on Medical Robotics and Bionics (T-MRB), 2024; to be presented in IEEE 2024 RAS/EMBS Intl. Conference on Biomedical Robotics and Biomechatronics (BioRob)
+		<em>IEEE Transactions on Medical Robotics and Bionics (T-MRB), 2024; to be presented in IEEE 2024 RAS/EMBS Intl. Conference on Biomedical Robotics and Biomechatronics (BioRob)
 		</em><br>
 		<a href="https://arxiv.org/abs/2402.08020">arXiv</a> / <a href="https://youtu.be/SEi8ZkJe4dQ">video</a> /
 		<a id="show_palacios2024_sci" href="#show_palacios2024_sci" class="hide">abstract (+)</a>
 		<a id="hide_palacios2024_sci" href="#hide_palacios2024_sci" class="show">abstract (-)</a>
 		<p class="details">
 			Individuals with hand paralysis resulting from C6-C7 spinal cord injuries frequently rely on tenodesis for grasping. However, tenodesis generates limited grasping force and demands constant exertion to maintain a grasp, leading to fatigue and sometimes pain. We introduce the MyHand-SCI, a wearable robot that provides grasping assistance through motorized exotendons. Our user-driven device enables independent, ipsilateral operation via a novel Throttle-based Wrist Angle control method, which allows users to maintain grasps without continued wrist extension. A pilot case study with a person with C6 spinal cord injury shows an improvement in functional grasping and grasping force, as well as a preserved ability to modulate grasping force while using our device, thus improving their ability to manipulate everyday objects. This research is a step towards developing effective and intuitive wearable assistive devices for individuals with spinal cord injury.
+		</p>
+	</div>
+</div>
+
+<div class="project">
+	<div class="project-thumb"><img src="/photos/chatemg.jpg" alt="method diagram of showing pretraining EMG data and task specific prompts for synthetic signal generation">
+	</div>
+	<div class="project-content">
+		<h3>ChatEMG: Synthetic Data Generation to Control a Robotic Hand Orthosis for Stroke</h3>
+		<span style="color:#767676">Jingxi Xu*, Runsheng Wang*, Siqi Shang*,</span> <strong>Ava Chen,</strong><span style="color:#767676">, Lauren Winterbottom, To-Liang Hsu, Wenxi Chen, Khondoker Ahmed, Pedro Leandro La Rotta<sup>&dagger;</sup>, Xinyue Zhu, Dawn M. Nilsen, Joel Stein, and Matei Ciocarlie</span><br>
+		<em>Submitted to IEEE Robotics and Automation Letters (RAL), 2024
+		</em><br>
+		<a href="https://arxiv.org/abs/2406.12123">arXiv</a>
+		/
+		<a href="https://www.youtube.com/watch?v=ozLbAGEkCug">video</a>
+		/
+		<a href="https://jxu.ai/chatemg/">project website</a> 
+		/
+		<a id="show_xu2024_chatemg" href="#show_xu2024_chatemg" class="hide">abstract (+)</a>
+		<a id="hide_xu2024_chatemg" href="#hide_xu2024_chatemg" class="show">abstract (-)</a>
+		<p class="details">
+			 Intent inferral on a hand orthosis for stroke patients is challenging due to the difficulty of data collection from impaired subjects. Additionally, EMG signals exhibit significant variations across different conditions, sessions, and subjects, making it hard for classifiers to generalize. Traditional approaches require a large labeled dataset from the new condition, session, or subject to train intent classifiers; however, this data collection process is burdensome and time-consuming. In this paper, we propose ChatEMG, an autoregressive generative model that can generate synthetic EMG signals conditioned on prompts (i.e., a given sequence of EMG signals). ChatEMG enables us to collect only a small dataset from the new condition, session, or subject and expand it with synthetic samples conditioned on prompts from this new context. ChatEMG leverages a vast repository of previous data via generative training while still remaining context-specific via prompting. Our experiments show that these synthetic samples are classifier-agnostic and can improve intent inferral accuracy for different types of classifiers. We demonstrate that our complete approach can be integrated into a single patient session, including the use of the classifier for functional orthosis-assisted tasks. To the best of our knowledge, this is the first time an intent classifier trained partially on synthetic data has been deployed for functional control of an orthosis by a stroke survivor.
 		</p>
 	</div>
 </div>
