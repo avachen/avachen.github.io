@@ -3,8 +3,32 @@
  * Styles for the teaching page
  */
 
+div.hfill{
+	display: flex;
+}
+
+hr {
+	flex-grow: 1;
+	margin-left: 0em;
+	border: 0;
+}
+
  dt.bullet{
  	display: list-item;
  	list-type-style: disc;
  	list-style-position: inside;
+ 	font-weight: normal;
  }
+
+summary{
+	font-weight: normal;
+	display: flex;
+}
+
+summary:hover {
+    text-decoration: underline;
+}
+
+details> p{
+  margin-left: 2.5em;
+}

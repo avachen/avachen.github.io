@@ -36,6 +36,18 @@ a {
   }
 }
 
+hr.line {
+  border: 1;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:$nav-bottom-border-color;
+  height: 1px;
+  text-align:center;
+  margin-top: 1rem;
+}
+
+
 footer {
     text-align: center;
     text-transform: lowercase;
