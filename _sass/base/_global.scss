@@ -36,6 +36,12 @@ a {
   }
 }
 
+hr {
+  flex-grow: 1;
+  margin-left: 0em;
+  border: 0;
+}
+
 hr.line {
   border: 1;
   clear:both;
@@ -47,6 +53,19 @@ hr.line {
   margin-top: 1rem;
 }
 
+hr.inline{
+  border: 1;
+  clear:both;
+  display:inline-block;
+  width: 80%;               
+  background-color:$nav-bottom-border-color;
+  height: 1px;
+  text-align:center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-left: 0;
+  margin-right: auto;
+}
 
 footer {
     text-align: center;

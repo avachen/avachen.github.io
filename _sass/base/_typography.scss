@@ -21,6 +21,11 @@ h2 {
   font-size: 1.5rem;
 }
 
+h2.inline {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
@@ -53,6 +58,17 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+ul.fn {
+  list-style: none;
+  padding-left: 2em;
+  margin: 0;
+  font-size: smaller;
+
+  li {
+    text-indent: -2em;
+  }
 }
 
 dt {

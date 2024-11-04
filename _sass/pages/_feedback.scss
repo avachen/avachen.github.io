@@ -1,0 +1,56 @@
+/**
+ * _feedback.scss
+ * Styles for the student_feedback page
+ */
+
+div.tablecontainer {
+	width: 60%; 
+	margin: auto;
+	overflow-x: auto;
+}
+
+div.wrapper {
+    width: 600px;
+}
+
+.table {
+	table-layout: fixed; 
+	width: 480px;
+	border-collapse: collapse;
+}
+
+.tr {
+	height: 50px;
+}
+
+.td {
+	border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+
+    figure {
+    	margin: 0;
+    }
+}
+
+td.no_padding {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+
+    figure {
+    	margin: 0;
+    	padding: 0;
+    }
+}
+
+.bar {
+  fill: #aaa;
+  height: 40px;
+  transition: fill .3s ease;
+  font-family: Helvetica, sans-serif;
+  
+  text {
+    fill: $body-text-color;
+  }
+}
