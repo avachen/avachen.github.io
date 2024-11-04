@@ -36,10 +36,13 @@ a {
   }
 }
 
-hr {
+hr.clear{
   flex-grow: 1;
+  clear: both;
   margin-left: 0em;
   border: 0;
+  height: 1px;
+  color: $body-background-color;
 }
 
 hr.line {
