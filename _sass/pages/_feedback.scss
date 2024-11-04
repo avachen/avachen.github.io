@@ -7,6 +7,10 @@ div.tablecontainer {
 	width: 60%; 
 	margin: auto;
 	overflow-x: auto;
+
+	  @media (max-width: 38em) {
+    width: 100%;
+  }
 }
 
 div.wrapper {

@@ -7,13 +7,7 @@ div.hfill{
 	display: flex;
 }
 
-hr {
-	flex-grow: 1;
-	margin-left: 0em;
-	border: 0;
-}
-
- dt.bullet{
+dt.bullet{
  	display: list-item;
  	list-type-style: disc;
  	list-style-position: inside;
