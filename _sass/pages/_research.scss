@@ -4,9 +4,17 @@
  */
 
 .project {
-    text-align: justify;
+    text-align: left;
     overflow: auto;
+    margin: 0.5rem;
 }
+.project-firstauthor {
+	text-align: left;
+	overflow: auto;
+	background-color: $body-highlight-color;
+	margin: 0.5rem;
+}
+
 .project-thumb{
 	float: left;
 	width: 30%;
@@ -14,6 +22,7 @@
 	max-height: 220px;
 	display: block;
 	padding-top: 2rem;
+	padding-left: 0.5rem;
 }
 .project-thumb-shiftup{
 	float: left;
@@ -22,6 +31,7 @@
 	max-height: 220px;
 	display: block;
 	padding-top: 0.6rem;
+	padding-left: 0.5rem;
 }
 .project-content{
 	float: right;
