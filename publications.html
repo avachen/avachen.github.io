@@ -11,20 +11,44 @@ canonical_url: 'https://avachen.net/publications'
 	<h2 class="inline">2025</h2> <hr class="inline">
 </div>
 
+<div class="project">
+	<div class="project-thumb"><img src="/photos/reactemg.jpg" alt="method diagram comparing conventional gesture recognition methods that assume full observability of the entire gesture before assigning a label versus our method that labels a continuous stream of EMG data that can potentially include successive transitions between different gestures as well as periods of holding a same gesture">
+	</div>
+	<div class="project-content">
+		<h3>ReactEMG: Zero-Shot, Low-Latency Intent Detection via sEMG</h3>
+		<span style="color:#767676">Runsheng&nbsp;Wang*, Xinyue&nbsp;Xu*,</span> <strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Jingxi&nbsp;Xu, Lauren&nbsp;Winterbottom, Dawn&nbsp;M.&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br> 
+		<em>Submitted (Under Review)
+		</em><br>
+		<a href="https://arxiv.org/abs/2506.19815">arXiv</a>
+		/
+		<a href="https://www.youtube.com/watch?v=AKT8hMvVCGY">video</a>
+		/
+		<a href="https://github.com/roamlab/reactemg">codebase</a>
+		/
+		<a href="https://reactemg.github.io/">project website</a> 
+		/
+		<a id="show_wang2025_abstract" href="#show_wang2025_abstract" class="hide">abstract (+)</a>
+		<a id="hide_wang2025_abstract" href="#hide_wang2025_abstract" class="show">abstract (-)</a>
+		<p class="details">
+			 Surface electromyography (sEMG) signals show promise for effective human–computer interfaces, particularly in rehabilitation and prosthetics. However, challenges remain in developing systems that respond quickly and reliably to user intent, across different subjects and without requiring time-consuming calibration. In this work, we propose a framework for EMG-based intent detection that addresses these challenges. Unlike traditional gesture recognition models that wait until a gesture is completed before classifying it, ReactEMG uses a segmentation strategy to assign intent labels at every timestep as the gesture unfolds. We introduce a novel masked modeling strategy that aligns muscle activations with their corresponding user intents, enabling rapid onset detection and stable tracking of ongoing gestures. In evaluations against baseline methods, considering both accuracy and stability for device control, our approach surpasses state-of-the-art performance in zero-shot transfer conditions, demonstrating its potential for wearable robotics and next-generation prosthetic systems.
+		</p>
+	</div>
+</div>
+
 <div class="project-firstauthor">
 	<div class="project-thumb"><img src="/photos/reciprocal.jpg" alt="method diagram of feeding EMG data to an intent inferral classifier and feeding back predicted intents to the user via LED progress bars">
 	</div>
 	<div class="project-content">
-		<h3>Reciprocal Learning of Intent Inferral with Augmented Visual Feedback for Stroke</h3>
+		<a href="https://arxiv.org/abs/2412.07956"><h3>Reciprocal Learning of Intent Inferral with Augmented Visual Feedback for Stroke</h3></a>
 		<span style="color:#767676">Jingxi&nbsp;Xu*, </span> <strong>Ava&nbsp;Chen*</strong><span style="color:#767676">, Lauren&nbsp;Winterbottom, Joaquin&nbsp;Palacios, Preethika&nbsp;Chivukula, Dawn&nbsp;M.&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br> 
-		<em>Accepted to IEEE 2025 Intl. Conference on Rehabilitation Robotics (ICORR)
+		<em>IEEE 2025 Intl. Conference on Rehabilitation Robotics (ICORR)
 		</em><br>
 		<a href="https://arxiv.org/abs/2412.07956">arXiv</a>
 		/
 		<a href="/pdfs/Chen_Reciprocal_ICORRposter_2025.pdf">poster</a>
 		/
-		<a id="show_xu2025_reciprocal" href="#show_xu2025_reciprocal" class="hide">abstract (+)</a>
-		<a id="hide_xu2025_reciprocal" href="#hide_xu2025_reciprocal" class="show">abstract (-)</a>
+		<a id="show_xu2025_abstract1" href="#show_xu2025_abstract1" class="hide">abstract (+)</a>
+		<a id="hide_xu2025_abstract1" href="#hide_xu2025_abstract1" class="show">abstract (-)</a>
 		<p class="details">
 			  Intent inferral, the process by which a robotic device predicts a user’s intent from biosignals, offers an effective and intuitive way to control wearable robots. Classical intent inferral methods treat biosignal inputs as unidirectional ground truths for training machine learning models, where the internal state of the model is not directly observable by the user. In this work, we propose reciprocal learning, a bidirectional paradigm that facilitates human adaptation to an intent inferral classifier. Our paradigm consists of iterative, interwoven stages that alternate between updating machine learning models and guiding human adaptation with the use of augmented visual feedback. We demonstrate this paradigm in the context of controlling a robotic hand orthosis for stroke, where the device predicts open, close, and relax intents from electromyographic (EMG) signals and provides appropriate assistance. We use LED progress-bar displays to communicate to the user the predicted probabilities for open and close intents by the classifier. Our experiments with stroke subjects show reciprocal learning improving performance in a subset of subjects (two out of five) without negatively impacting performance on the others. We hypothesize that, during reciprocal learning, subjects can learn to reproduce more distinguishable muscle activation patterns and generate more separable biosignals.
 		</p>
@@ -35,16 +59,16 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-thumb"><img src="/photos/fabricintrinsic.jpg" alt="method diagram showing hand poses and corresponding muscle activity data collected from the proposed fabric sensor as well as from the forearm EMG armband">
 	</div>
 	<div class="project-content">
-		<h3>Fabric Sensing of Intrinsic Hand Muscle Activity</h3>
+		<a href="https://arxiv.org/abs/2412.14185"><h3>Fabric Sensing of Intrinsic Hand Muscle Activity</h3></a>
 		<span style="color:#767676">Katelyn&nbsp;Lee, Runsheng&nbsp;Wang, </span><strong>Ava&nbsp;Chen</strong>, <span style="color:#767676">Lauren&nbsp;Winterbottom, Ho&nbsp;Man&nbsp;Colman&nbsp;Leung, Lisa&nbsp;Maria&nbsp;DiSalvo, Iris&nbsp;Xu, Jingxi&nbsp;Xu, Dawn&nbsp;M.&nbsp;Nilsen, Joel&nbsp;Stein, Xia&nbsp;Zhou, and Matei&nbsp;Ciocarlie</span><br>
-		<em>Accepted to IEEE 2025 Intl. Conference on Rehabilitation Robotics (ICORR)
+		<em>IEEE 2025 Intl. Conference on Rehabilitation Robotics (ICORR)
 		</em><br>
 		<a href="https://arxiv.org/abs/2412.14185">arXiv</a>
 		/
 		<a href="/pdfs/PP-147_ICORR_Katelyn_Lee-compressed.pdf">poster</a>
 		/
-		<a id="show_lee2025_fabricintrinsic" href="#show_lee2025_fabricintrinsic" class="hide">abstract (+)</a>
-		<a id="hide_lee2025_fabricintrinsic" href="#hide_lee2025_fabricintrinsic" class="show">abstract (-)</a>
+		<a id="show_lee2025_abstract" href="#show_lee2025_abstract" class="hide">abstract (+)</a>
+		<a id="hide_lee2025_abstract" href="#hide_lee2025_abstract" class="show">abstract (-)</a>
 		<p class="details">
 			Wearable robotics have the capacity to assist stroke survivors in assisting and rehabilitating hand function. Many devices that use surface electromyographic (sEMG) for control rely on extrinsic muscle signals, since sEMG sensors are relatively easy to place on the forearm without interfering with hand activity. In this work, we target the intrinsic muscles of the thumb, which are superficial to the skin and thus potentially more accessible via sEMG sensing. However, traditional, rigid electrodes can not be placed on the hand without adding bulk and affecting hand functionality. We thus present a novel sensing sleeve that uses textile electrodes to measure sEMG activity of intrinsic thumb muscles. We evaluate the sleeve's performance on detecting thumb movements and muscle activity during both isolated and isometric muscle contractions of the thumb and fingers. This work highlights the potential of textile-based sensors as a low-cost, lightweight, and non-obtrusive alternative to conventional sEMG sensors for wearable robotics.
 		</p>
@@ -55,7 +79,7 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-thumb"><img src="/photos/chatemg.jpg" alt="method diagram of showing pretraining EMG data and task specific prompts for synthetic signal generation">
 	</div>
 	<div class="project-content">
-		<h3>ChatEMG: Synthetic Data Generation to Control a Robotic Hand Orthosis for Stroke</h3>
+		<a href="https://ieeexplore.ieee.org/document/10777608"><h3>ChatEMG: Synthetic Data Generation to Control a Robotic Hand Orthosis for Stroke</h3></a>
 		<span style="color:#767676">Jingxi&nbsp;Xu*, Runsheng&nbsp;Wang*, Siqi&nbsp;Shang*,</span> <strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Lauren&nbsp;Winterbottom, To&#8209;Liang&nbsp;Hsu, Wenxi&nbsp;Chen, Khondoker&nbsp;Ahmed, Pedro&nbsp;Leandro&nbsp;La&nbsp;Rotta, Xinyue&nbsp;Zhu, Dawn&nbsp;M.&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br> 
 		<em>IEEE Robotics and Automation Letters (RA-L), 2025; presented in IEEE 2025 Intl. Conference on Robotics and Automation (ICRA)
 		</em><br>
@@ -67,8 +91,8 @@ canonical_url: 'https://avachen.net/publications'
 		/
 		<a href="https://jxu.ai/chatemg/">project website</a> 
 		/
-		<a id="show_xu2024_chatemg" href="#show_xu2024_chatemg" class="hide">abstract (+)</a>
-		<a id="hide_xu2024_chatemg" href="#hide_xu2024_chatemg" class="show">abstract (-)</a>
+		<a id="show_xu2025_abstract" href="#show_xu2025_abstract" class="hide">abstract (+)</a>
+		<a id="hide_xu2025_abstract" href="#hide_xu2025_abstract" class="show">abstract (-)</a>
 		<p class="details">
 			 Intent inferral on a hand orthosis for stroke patients is challenging due to the difficulty of data collection from impaired subjects. Additionally, EMG signals exhibit significant variations across different conditions, sessions, and subjects, making it hard for classifiers to generalize. Traditional approaches require a large labeled dataset from the new condition, session, or subject to train intent classifiers; however, this data collection process is burdensome and time-consuming. In this paper, we propose ChatEMG, an autoregressive generative model that can generate synthetic EMG signals conditioned on prompts (i.e., a given sequence of EMG signals). ChatEMG enables us to collect only a small dataset from the new condition, session, or subject and expand it with synthetic samples conditioned on prompts from this new context. ChatEMG leverages a vast repository of previous data via generative training while still remaining context-specific via prompting. Our experiments show that these synthetic samples are classifier-agnostic and can improve intent inferral accuracy for different types of classifiers. We demonstrate that our complete approach can be integrated into a single patient session, including the use of the classifier for functional orthosis-assisted tasks. To the best of our knowledge, this is the first time an intent classifier trained partially on synthetic data has been deployed for functional control of an orthosis by a stroke survivor.
 		</p>
@@ -79,13 +103,13 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-thumb"><img src="/photos/motorlearning.jpg" alt="process diagram with 'human' and 'robotic hand orthosis', bidirectionally communicating through 'EMG signals' and 'visual biofeedback'. The human input of 'actively using upper limb' as well as the orthosis input of 'detects intent using machine learning' produces the desired result of 'task performance'">
 	</div>
 	<div class="project-content">
-		<h3>Motor Learning Techniques to Enhance Training with Robotic Hand Orthoses for Stroke Survivors: Challenges and Opportunities</h3>
+		<a href="/pdfs/AOTA_2025_ML_Techniques_for_RHOs.pdf"><h3>Motor Learning Techniques to Enhance Training with Robotic Hand Orthoses for Stroke Survivors: Challenges and Opportunities</h3></a>
 		<span style="color:#767676">Lauren&nbsp;Winterbottom,</span> <strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Jingxi&nbsp;Xu, Katelyn&nbsp;S.&nbsp;Lee, Rochelle&nbsp;Mendonca, Matei&nbsp;Ciocarlie, Joel&nbsp;Stein, and Dawn&nbsp;M.&nbsp;Nilsen</span><br>
 		<em>American Occupational Therapy Association (AOTA) INSPIRE 2025
 		</em><br>
 		<a href="/pdfs/AOTA_2025_ML_Techniques_for_RHOs.pdf">poster</a> / 
-		<a id="show_winterbottom2025" href="#show_winterbottom2025" class="hide">abstract (+)</a>
-		<a id="hide_winterbottom2025" href="#hide_winterbottom2025" class="show">abstract (-)</a>
+		<a id="show_winterbottom2025_abstract" href="#show_winterbottom2025_abstract" class="hide">abstract (+)</a>
+		<a id="hide_winterbottom2025_abstract" href="#hide_winterbottom2025_abstract" class="show">abstract (-)</a>
 		<p class="details">
 			Occupational therapists are uniquely qualified to collaborate with engineering teams on the development of wearable robotic hand orthoses (WRHOs) and can incorporate motor learning principles and occupation-based theories into training protocols to enhance learning.  WRHOs are being developed to assist the user with challenging movements and increase engagement in meaningful daily activities. These devices may also improve motor capacity through repeated practice (Khalid et al., 2021). MyHand is a prototype WRHO for stroke survivors with minimal hand function that provides composite extension to the digits and thumb. The device uses a machine learning algorithm based on surface electromyography data to detect the user’s intent to open or close their hand. After stroke, these algorithms may have difficulty determining the intent of the hemiparetic hand due to reduced ability of the user to perform consistent actions (Xu et al., 2022). To help with this, WRHOs can provide the user with feedback (e.g., visual, auditory, or haptic) on the intent being detected to potentially improve the user’s ability to effectively use the device. However, little is currently known about how to optimize human-robot interactions so that users can efficiently and effectively learn to use such devices (Díaz et al., 2023). Our research team is investigating a novel training paradigm for the MyHand device that acknowledges the dynamic interaction between the person, the robot, and the task. In this presentation, we will discuss our experiences in designing and implementing training protocols for the MyHand device as well as challenges and opportunities for future research. Speakers will engage participants in discussion of ways that occupational therapists can participate in the development of wearable robotic technologies that support the functional needs and independence of individuals living with stroke. 
 		</p>
@@ -100,7 +124,7 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-thumb"><img src="/photos/perceptions.jpg" alt="Figure 5 from paper showing that clinicians are more likely to have strong interest in using myhand as a rehabilitative device as opposed to as an assistive device, but a majority of participants are somewhat or extremely likely to have interest in using the device overall.">
 	</div>
 	<div class="project-content">
-		<h3>Clinician perceptions of a novel wearable robotic hand orthosis for post-stroke hemiparesis </h3>
+		<a href="https://doi.org/10.1080/09638288.2024.2375056"><h3>Clinician perceptions of a novel wearable robotic hand orthosis for post-stroke hemiparesis</h3></a>
 		<span style="color:#767676">Lauren&nbsp;Winterbottom*, </span><strong>Ava&nbsp;Chen*</strong><span style="color:#767676">, Rochelle&nbsp;Mendonca, Dawn&nbsp;M.&nbsp;Nilsen, Matei&nbsp;Ciocarlie, and Joel&nbsp;Stein</span><br>
 		<em>Disability and Rehabilitation, 2024
 		</em><br>
@@ -108,8 +132,8 @@ canonical_url: 'https://avachen.net/publications'
 		/
 		<a href="/pdfs/Winterbottom_Chen_PerceptionsRoboticHandOrthosisStroke.pdf">preprint</a>
 		/
-		<a id="show_winterbottom2024_perceptions" href="#show_winterbottom2024_perceptions" class="hide">abstract (+)</a>
-		<a id="hide_winterbottom2024_perceptions" href="#hide_winterbottom2024_perceptions" class="show">abstract (-)</a>
+		<a id="show_winterbottom2024_abstract1" href="#show_winterbottom2024_abstract1" class="hide">abstract (+)</a>
+		<a id="hide_winterbottom2024_abstract1" href="#hide_winterbottom2024_abstract1" class="show">abstract (-)</a>
 		<p class="details">
 			<strong>Purpose:</strong> Wearable robotic devices are currently being developed to improve upper limb function for individuals with hemiparesis after stroke. Incorporating the views of clinicians during the development of new technologies can help ensure that end products meet clinical needs and can be adopted for patient care.<br>
 			<strong>Methods:</strong> In this cross-sectional mixed-methods study, an anonymous online survey was used to gather clinicians’ perceptions of a wearable robotic hand orthosis for post-stroke hemiparesis. Participants were asked about their clinical experience and provided feedback on the prototype device after viewing a video.<br>
@@ -123,7 +147,7 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-thumb"><img src="/photos/volitional.jpg" alt="illustration of device opening with forearm muscle effort">
 	</div>
 	<div class="project-content">
-		<h3>Volitional Control of the Paretic Hand Post-Stroke Increases Finger Stiffness and Resistance to Robot-Assisted Movement</h3>
+		<a href="https://ieeexplore.ieee.org/document/10719809"><h3>Volitional Control of the Paretic Hand Post-Stroke Increases Finger Stiffness and Resistance to Robot-Assisted Movement</h3></a>
 		<strong>Ava&nbsp;Chen*</strong><span style="color:#767676">, Katelyn&nbsp;Lee*, Lauren&nbsp;Winterbottom, Jingxi&nbsp;Xu, Connor&nbsp;Lee, Grace&nbsp;Munger, Alexandra&nbsp;Deli&#8209;Ivanov, Dawn&nbsp;M.&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br>
 		<em>IEEE 2024 RAS/EMBS Intl. Conference on Biomedical Robotics and Biomechatronics (BioRob)
 		</em><br>
@@ -133,8 +157,8 @@ canonical_url: 'https://avachen.net/publications'
 		/ 
 		<a href="https://youtu.be/RQRazC-o44I">video</a>
 		/
-		<a id="show_chen2024_volitional" href="#show_chen2024_volitional" class="hide">abstract (+)</a>
-		<a id="hide_chen2024_volitional" href="#hide_chen2024_volitional" class="show">abstract (-)</a>
+		<a id="show_chen2024_abstract" href="#show_chen2024_abstract" class="hide">abstract (+)</a>
+		<a id="hide_chen2024_abstract" href="#hide_chen2024_abstract" class="show">abstract (-)</a>
 		<p class="details">
 			Increased effort during use of the paretic arm and hand can provoke involuntary abnormal synergy patterns and amplify stiffness effects of muscle tone for individuals after stroke, which can add difficulty for user-controlled devices to assist hand movement during functional tasks. We study how volitional effort, exerted in an attempt to open or close the hand, affects resistance to robot-assisted movement at the finger level. We perform experiments with three chronic stroke survivors to measure changes in stiffness when the user is actively exerting effort to activate ipsilateral EMG-controlled robot-assisted hand movements, compared with when the fingers are passively stretched, as well as overall effects from sustained active engagement and use. Our results suggest that active engagement of the upper extremity increases muscle tone in the finger to a much greater degree than through passive-stretch or sustained exertion over time. Potential design implications of this work suggest that developers should anticipate higher levels of finger stiffness when relying on user-driven ipsilateral control methods for assistive or rehabilitative devices for stroke.
 		</p>
@@ -145,14 +169,14 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-thumb"><img src="/photos/sciwrist.jpg" alt="diagram demonstrating device opening and closing with wrist bend angle">
 	</div>
 	<div class="project-content">
-		<h3>Grasp Force Assistance via Throttle-based Wrist Angle Control on a Robotic Hand Orthosis for C6-C7 Spinal Cord Injury</h3>
+		<a href="https://ieeexplore.ieee.org/document/10759850"><h3>Grasp Force Assistance via Throttle-based Wrist Angle Control on a Robotic Hand Orthosis for C6-C7 Spinal Cord Injury</h3></a>
 		<span style="color:#767676">Joaquin&nbsp;Palacios*, Alexandra&nbsp;Deli&#8209;Ivanov*,</span> <strong>Ava&nbsp;Chen*</strong><span style="color:#767676">, Lauren&nbsp;Winterbottom, Dawn&nbsp;M.&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br>
 		<em>IEEE Transactions on Medical Robotics and Bionics (T-MRB), 2024; presented in IEEE 2024 RAS/EMBS Intl. Conference on Biomedical Robotics and Biomechatronics (BioRob)
 		</em><br>
 		<a href="https://ieeexplore.ieee.org/document/10759850">paper</a> /
 		<a href="https://arxiv.org/abs/2402.08020">arXiv</a> / <a href="https://youtu.be/SEi8ZkJe4dQ">video</a> /
-		<a id="show_palacios2024_sci" href="#show_palacios2024_sci" class="hide">abstract (+)</a>
-		<a id="hide_palacios2024_sci" href="#hide_palacios2024_sci" class="show">abstract (-)</a>
+		<a id="show_palacios2024_abstract" href="#show_palacios2024_abstract" class="hide">abstract (+)</a>
+		<a id="hide_palacios2024_abstract" href="#hide_palacios2024_abstract" class="show">abstract (-)</a>
 		<p class="details">
 			Individuals with hand paralysis resulting from a C6-C7 spinal cord injury (SCI) frequently rely on tenodesis for grasping. However, tenodesis generates limited grasping force and demands constant exertion to maintain a grasp, leading to fatigue and sometimes pain. We introduce the MyHand-SCI, a wearable robot that provides grasping assistance through motorized exotendons. Our user-driven device enables independent, ipsilateral operation via a novel control method, Throttle-based Wrist Angle (TWA), that allows users to maintain grasps without requiring continued wrist extension. A pilot case study with a person with C6 SCI shows an improvement in functional grasping and grasping force, as well as a preserved ability to modulate grasping force while using our device, thus improving their ability to manipulate everyday objects. This research is a step towards developing effective and intuitive assistive devices for individuals with hand impairments after SCI.
 		</p>
@@ -163,7 +187,7 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-thumb"><img src="/photos/metaemg.jpg" alt="method diagram showing task inputs to training model and output of classification">
 	</div>
 	<div class="project-content">
-		<h3>Meta-Learning for Fast Adaptation in Intent Inferral on a Robotic Hand Orthosis for Stroke</h3>
+		<a href="https://ieeexplore.ieee.org/document/10801596"><h3>Meta-Learning for Fast Adaptation in Intent Inferral on a Robotic Hand Orthosis for Stroke</h3></a>
 		<span style="color:#767676">Pedro&nbsp;Leandro&nbsp;La&nbsp;Rotta*, Jingxi&nbsp;Xu*,</span> <strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Lauren&nbsp;Winterbottom, Wenxi&nbsp;Chen, Dawn&nbsp;M.&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br>
 		<em>2024 IEEE/RSJ Intl. Conference on Intelligent Robots and Systems (IROS)
 		</em><br>
@@ -171,8 +195,8 @@ canonical_url: 'https://avachen.net/publications'
 		/
 		<a href="https://arxiv.org/abs/2403.13147">arXiv</a>
 		/ 
-		<a id="show_larotta2024_metalearning" href="#show_larotta2024_metalearning" class="hide">abstract (+)</a>
-		<a id="hide_larotta2024_metalearning" href="#hide_larotta2024_metalearning" class="show">abstract (-)</a>
+		<a id="show_larotta2024_abstract" href="#show_larotta2024_abstract" class="hide">abstract (+)</a>
+		<a id="hide_larotta2024_abstract" href="#hide_larotta2024_abstract" class="show">abstract (-)</a>
 		<p class="details">
 			We propose MetaEMG, a meta-learning approach for fast adaptation in intent inferral on a robotic hand orthosis for stroke. One key challenge in machine learning for assistive and rehabilitative robotics with disabled-bodied subjects is the difficulty of collecting labeled training data. Muscle tone and spasticity often vary significantly among stroke subjects, and hand function can even change across different use sessions of the device for the same subject. We investigate the use of metalearning to mitigate the burden of data collection needed to adapt high-capacity neural networks to a new session or subject. Our experiments on real clinical data collected from five stroke subjects show that MetaEMG can improve the intent inferral accuracy with a small session- or subject-specific dataset and very few fine-tuning epochs. To the best of our knowledge, we are the first to formulate intent inferral on stroke subjects as a meta-learning problem and demonstrate fast adaptation to a new session or subject for controlling a robotic hand orthosis with EMG signals.
 		</p>
@@ -183,13 +207,13 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-thumb"><img src="/photos/stakeholder.jpg" alt="diagram with bidirectional arrows with 'input from stakeholders', 'clinical testing', and 'device development'">
 	</div>
 	<div class="project-content">
-		<h3>Collaboration between Occupational Therapists, Engineers, and People with Neurological Conditions in the Development of Wearable Robotic Devices</h3>
+		<a href="/pdfs/AOTA_2024_Wearable_Devices_3_6_2024_resized.pdf"><h3>Collaboration between Occupational Therapists, Engineers, and People with Neurological Conditions in the Development of Wearable Robotic Devices</h3></a>
 		<span style="color:#767676">Lauren&nbsp;Winterbottom, Dawn&nbsp;M.&nbsp;Nilsen, Rochelle&nbsp;Mendonca, </span> <strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Sara&nbsp;Lin, Kevin&nbsp;Carroll, Jingxi&nbsp;Xu, Matei&nbsp;Ciocarlie, and Joel&nbsp;Stein</span><br>
 		<em>American Occupational Therapy Association (AOTA) INSPIRE 2024
 		</em><br>
 		<a href="/pdfs/AOTA_2024_Wearable_Devices_3_6_2024_resized.pdf">poster</a> / 
-		<a id="show_winterbottom2024" href="#show_winterbottom2024" class="hide">abstract (+)</a>
-		<a id="hide_winterbottom2024" href="#hide_winterbottom2024" class="show">abstract (-)</a>
+		<a id="show_winterbottom2024_abstract" href="#show_winterbottom2024_abstract" class="hide">abstract (+)</a>
+		<a id="hide_winterbottom2024_abstract" href="#hide_winterbottom2024_abstract" class="show">abstract (-)</a>
 		<p class="details">
 			Wearable robotic devices for the upper limb are currently being developed to enhance arm and hand function for individuals with neurological conditions such as stroke and spinal cord injury (Xu et al., 2022; Yurkewich et al., 2022). Historically, upper limb orthotic devices have often been developed with minimal input from potential consumers and are abandoned at high rates (Sugawara et al., 2018). Incorporating the needs and values of consumers during the development of such devices is crucial and can help ensure these devices are useful and acceptable (Torricelli et al., 2020). Occupational therapists can contribute to this process through collaboration with engineering teams and people with disabilities by centering stakeholder voices and driving device design to support end-user goals for pragmatic application. In this presentation, we will discuss our experiences working with engineering teams in the development of robotic devices for neurological conditions and highlight the importance of multidisciplinary collaboration. We will present data from interviews and focus groups with individuals with stroke and spinal cord injury on their priorities for a robotic device for the hand. We will then discuss challenges and opportunities for occupational therapists when collaborating on the development of rehabilitation technologies that incorporate stakeholder priorities. We will engage participants in discussion on ways to advance the involvement of occupational therapists in technology development that supports the needs of individuals living with neurological conditions.
 		</p>
@@ -200,13 +224,13 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-thumb"><img src="/photos/fabricemg.jpg" alt="photo of fabric flat pattern showing the six embroidered electrodes positioned in a 2 by 3 grid along with an embroidered reference electrode placed further away, with diagram arrow pointing to photo of the same fabric device worn on the hand to show the sensing array's positioning on the thumb's muscle belly. The OpenBCI board that is used in this work is also shown.">
 	</div>
 	<div class="project-content">
-		<h3>Fabric EMG Sensing for Robotic Orthosis Control</h3>
+		<a href="/pdfs/Lee_FabricEmgSensing.pdf"><h3>Fabric EMG Sensing for Robotic Orthosis Control</h3></a>
 		<span style="color:#767676">Katelyn&nbsp;Lee, Lisa&nbsp;Maria&nbsp;DiSalvo, Iris&nbsp;Xu, Qijia&nbsp;Shao, </span><strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Xia&nbsp;Zhou, and Matei&nbsp;Ciocarlie</span><br>
 		<em><a href="https://sites.google.com/view/biorob24-ws-responsive-bmi/">IEEE 2024 RAS/EMBS Intl. Conference on Biomedical Robotics and Biomechatronics (BioRob) Workshop: Building Responsive Body-Machine Interfaces with Biosignals and Robotic Exoskeletons</a></em><br>
 		<a href="/pdfs/Lee_FabricEmgSensing.pdf">poster</a>
 		/
-		<a id="show_lee2024_fabricemg" href="#show_lee2024_fabricemg" class="hide">abstract (+)</a>
-		<a id="hide_lee2024_fabricemg" href="#hide_lee2024_fabricemg" class="show">abstract (-)</a>
+		<a id="show_lee2024_abstract" href="#show_lee2024_abstract" class="hide">abstract (+)</a>
+		<a id="hide_lee2024_abstract" href="#hide_lee2024_abstract" class="show">abstract (-)</a>
 		<p class="details">
 			While ipsilateral control of wearable robotic orthoses is both intuitive and user-driven, complications like muscle spasticity in the impaired arm present a challenging problem for robust usage in stroke survivors. Many devices leverage the residual muscle activity of the hand extensor muscles in the forearm via surface electromyography (sEMG) sensors to discern user intent in conjunction with machine learning algorithms. Recent work, however, has demonstrated that volitional effort for full finger extension during hand opening increases finger stiffness and spasticity, thereby impeding optimal use of the device. To this, we seek to reduce hand spasticity induced by full hand extension by asking stroke participants to engage only thumb movement to control the device, rather than their entire hand. The three muscles that control thumb abduction, opposition, and flexion lie in the thenar eminence, a bundle of intrinsic hand muscles at the base of the thumb. Notably, these muscles are known to have decreased hypertonia, but due to the contours of the palm, attaching muscle sensors to the thenar eminence have been difficult. Previous work with sensing this region have used adhesive electromyography sensors to maintain skin contact. A promising alternative to adhesive sEMG sensors is fabric, which, unlike adhesive, is reusable, flexible, and comfortable to don, doff, and wear. We present a fabric sEMG sensor built with off the shelf materials to sense muscle activity in the thenar eminence. To the best of our knowledge, we are the first to incorporate fabric sEMG sensors to sense intrinsic muscle activity in the hand for control of a robotic device. The fabric sensor is made of three biopotential sensing electrodes, where each electrode is made of a layer of conductive fabric on top of a thick fabric pad to improve skin contact. The sensors are embroidered to an elastic fabric thumb sleeve and connected via conductive thread to the OpenBCI Cyton board for biopotential sensing. Preliminary testing of the fabric sensor, paired with a commercial sEMG sensor, in healthy participants demonstrates its capacity as an electromyography sensor in the thumb. By changing the control input to thumb engagement, rather than whole hand engagement, we aim to decrease spasticity while wearing the device. And by combining this additional fabric sEMG sensor with a commercial, 8-channel forearm sEMG sensor, we aim to improve classification accuracy when applied to our current machine learning algorithm. Fabric electromyography sensing is a low-cost, light-weight, and scalable technology that motivates future work in its improvement and adoption.
 		</p>
@@ -221,7 +245,7 @@ canonical_url: 'https://avachen.net/publications'
 	<div class="project-thumb"><img src="/photos/sci.jpg" alt="participant with spinal cord tetraplegia grasping a tomato can while wearing device">
 	</div>
 	<div class="project-content">
-		<h3>Towards Tenodesis-Modulated Control of an Assistive Hand Exoskeleton for SCI</h3>
+		<a href="/pdfs/myhandSCI_IROS2023ws.pdf"><h3>Towards Tenodesis-Modulated Control of an Assistive Hand Exoskeleton for SCI</h3></a>
 		<span style="color:#767676">Joaquin&nbsp;Palacios*, Alexandra&nbsp;Deli&#8209;Ivanov*,</span> <strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Lauren&nbsp;Winterbottom, Dawn&nbsp;M.&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br>
 		<em><a href="https://sites.google.com/view/iros2023-assistive-robotics/">IEEE/RSJ 2023 Intl. Conference on Intelligent Robots and Systems (IROS) Workshop: Assistive Robotics for Citizens</a></em><br>
 		<a href="/pdfs/myhandSCI_IROS2023ws.pdf">workshop paper</a> / <a href="https://arxiv.org/abs/2311.17244">arXiv</a> / <a href="/pdfs/myhandSCI_IROS2023wsposter.pdf">poster</a>
@@ -235,14 +259,14 @@ canonical_url: 'https://avachen.net/publications'
 <div class="project-firstauthor">
 	<div class="project-thumb"><img src="/photos/thumb.jpg" alt="participant with stroke demonstrating hand closing and opening while wearing device"></div>
 	<div class="project-content">
-		<h3>Thumb Stabilization and Assistance in a Robotic Hand Orthosis for Post-Stroke Hemiparesis</h3>
+		<a href="https://ieeexplore.ieee.org/document/9803858"><h3>Thumb Stabilization and Assistance in a Robotic Hand Orthosis for Post-Stroke Hemiparesis</h3></a>
 		<strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Lauren&nbsp;Winterbottom, Sangwoo&nbsp;Park, Jingxi&nbsp;Xu, Dawn&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br>
 		<em>IEEE Robotics and Automation Letters (RA-L), 2022; presented in IEEE RAS/EMBS 2022 Intl. Conference on Biomedical Robotics and Biomechatronics (BioRob)</em><br>
 		<i class="fas fa-award fa-fw" aria-hidden="true"></i><strong>Best Paper Finalist!</strong>
 		<div>
 		<a href="https://ieeexplore.ieee.org/document/9803858">paper</a> / <a href="https://arxiv.org/abs/2110.02258">arXiv</a> / 
-		<a id="show_chen2022_thumb" href="#show_chen2022_thumb" class="hide">abstract (+)</a>
-		<a id="hide_chen2022_thumb" href="#hide_chen2022_thumb" class="show">abstract (-)</a>
+		<a id="show_chen2022_abstract1" href="#show_chen2022_abstract1" class="hide">abstract (+)</a>
+		<a id="hide_chen2022_abstract1" href="#hide_chen2022_abstract1" class="show">abstract (-)</a>
 		<p class="details">
 			We propose a dual-cable method of stabilizing the thumb in the context of a hand orthosis designed for individuals with upper extremity hemiparesis after stroke. This cable network adds opposition/reposition capabilities to the thumb, and increases the likelihood of forming a hand pose that can successfully manipulate objects. In addition to a passive-thumb version (where both cables are of fixed length), our approach also allows for a single-actuator active-thumb version (where the extension cable is actuated while the abductor remains passive), which allows a range of motion intended to facilitate creating and maintaining grasps. We performed experiments with five chronic stroke survivors consisting of unimanual resistive-pull tasks and bimanual twisting tasks with simulated real-world objects; these explored the effects of thumb assistance on grasp stability and functional range of motion. Our results show that both active- and passive-thumb versions achieved similar performance in terms of improving grasp force generation over a no-device baseline, but active thumb stabilization enabled users to maintain grasps for longer durations.
 		</p>
@@ -253,13 +277,13 @@ canonical_url: 'https://avachen.net/publications'
 <div class="project-firstauthor">
 	<div class="project-thumb"><img src="/photos/supination.jpg" alt="photo series of stroke subject using device to adjust forearm rotation angle"></div>
 	<div class="project-content">
-		<h3>Design of Spiral-Cable Forearm Exoskeleton to Provide Supination Adjustment for Hemiparetic Stroke Subjects</h3>
+		<a href="https://ieeexplore.ieee.org/document/9896608"><h3>Design of Spiral-Cable Forearm Exoskeleton to Provide Supination Adjustment for Hemiparetic Stroke Subjects</h3></a>
 		<strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Lauren&nbsp;Winterbottom, Katherine&nbsp;O'Reilly, Sangwoo&nbsp;Park, Dawn&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br>
 		<em>IEEE 2022 Intl. Conference on Rehabilitation Robotics (ICORR)</em>
 		<div>
 		<a href="https://ieeexplore.ieee.org/document/9896608">paper</a> / <a href="https://arxiv.org/abs/2110.02274">arXiv</a> / 
-		<a id="show_chen2022_sup" href="#show_chen2022_sup" class="hide">abstract (+)</a>
-		<a id="hide_chen2022_sup" href="#hide_chen2022_sup" class="show">abstract (-)</a>
+		<a id="show_chen2022_abstract" href="#show_chen2022_abstract" class="hide">abstract (+)</a>
+		<a id="hide_chen2022_abstract" href="#hide_chen2022_abstract" class="show">abstract (-)</a>
 		<p class="details">
 			We present the development of a cable-based passive forearm exoskeleton that is designed to assist supination for hemiparetic stroke survivors. Our device uniquely provides torque sufficient for counteracting spasticity within a below-elbow apparatus. The mechanism consists of a spiral single-tendon routing embedded in a rigid forearm brace and terminated at the hand and upper-forearm. A spool with an internal releasable-ratchet mechanism allows the user to manually retract the tendon and rotate the hand to counteract involuntary pronation synergies due to stroke. We characterize the mechanism with benchtop testing and five healthy subjects, and perform a preliminary assessment of the exoskeleton with a single chronic stroke subject having minimal supination ability. The mechanism can be integrated into an existing active hand-opening orthosis to enable supination support during grasping tasks, and also allows for a future actuated supination strategy.
 		</p>
@@ -270,13 +294,13 @@ canonical_url: 'https://avachen.net/publications'
 <div class="project">
 	<div class="project-thumb"><img src="/photos/semisup2.jpg" alt="our intent detection performance against other algorithms"></div>
 	<div class="project-content">
-		<h3>Adaptive Semi-Supervised Intent Inferral to Control a Powered Hand Orthosis for Stroke</h3>
+		<a href="https://ieeexplore.ieee.org/document/9811932"><h3>Adaptive Semi-Supervised Intent Inferral to Control a Powered Hand Orthosis for Stroke</h3></a>
 		<span style="color:#767676">Jingxi&nbsp;Xu, Cassie&nbsp;Meeker, </span> <strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Lauren&nbsp;Winterbottom, Michaela&nbsp;Fraser, Sangwoo&nbsp;Park, Lynne&nbsp;M.&nbsp;Weber, Mitchell&nbsp;Miya, Dawn&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br>
 		<em>IEEE 2022 Intl. Conference on Robotics and Automation (ICRA)</em><br>
 		<div>
 		<a href="https://ieeexplore.ieee.org/document/9811932">paper</a> / <a href="https://arxiv.org/abs/2011.00034">arXiv</a> / <a href="https://roamlab.github.io/dssm/">project website</a> / <a href="/pdfs/icra2022_orthosis_poster.pdf">poster</a> /
-		<a id="show_xu2022" href="#show_xu2022" class="hide">abstract (+)</a>
-		<a id="hide_xu2022" href="#hide_xu2022" class="show">abstract (-)</a>
+		<a id="show_xu2022_abstract" href="#show_xu2022_abstract" class="hide">abstract (+)</a>
+		<a id="hide_xu2022_abstract" href="#hide_xu2022_abstract" class="show">abstract (-)</a>
 		<p class="details">
 			In order to provide therapy in a functional context, controls for wearable orthoses need to be robust and intuitive. We have previously introduced an intuitive, user-driven, EMG based method to operate a robotic hand orthosis, but the process of training a control that is robust to concept drift (changes in the input signal) places a substantial burden on the user. In this paper, we explore semi-supervised learning as a paradigm for controlling a powered hand orthosis for stroke subjects. To the best of our knowledge, this is the first use of semi-supervised learning for an orthotic application. Specifically, we propose a disagreement-based semi-supervision algorithm for handling intrasession concept drift based on multimodal ipsilateral sensing. We evaluate the performance of our algorithm on data collected from five stroke subjects. Our results show that the proposed algorithm helps the device adapt to intrasession drift using unlabeled data and reduces the training burden placed on the user. We also validate the feasibility of our proposed algorithm with a functional task; in these experiments, two subjects successfully completed multiple instances of a pick-and-handover task.
 		</p>
@@ -291,13 +315,14 @@ canonical_url: 'https://avachen.net/publications'
 <div class="project-firstauthor">
 	<div class="project-thumb"> <img src="/photos/spider.jpg" alt="pseudo time series photo of spider jump"></div>
 	<div class="project-content">
-		<h3>Rapid mid-jump production of high-performance silk by jumping spiders</h3>
+		<a href="https://www.sciencedirect.com/science/article/pii/S0960982221012938"><h3>Rapid Mid-Jump Production of High-Performance Silk by Jumping Spiders</h3></a>
 		<strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Kris&nbsp;Kim, and Paul&nbsp;Shamble</span><br>
 		<em>Current Biology, 2021</em>
 		<div>
-			<a href="/pdfs/Chen_A_2021_RapidMidJumpSilkSpider.pdf">paper</a> / 
-			<a id="show_chen2021" href="#show_chen2021" class="hide">abstract (+)</a>
-			<a id="hide_chen2021" href="#hide_chen2021" class="show">abstract (-)</a>
+			<a href="https://www.sciencedirect.com/science/article/pii/S0960982221012938">paper</a> /
+			<a href="/pdfs/Chen_A_2021_RapidMidJumpSilkSpider.pdf">author-hosted&nbsp;copy</a> / 
+			<a id="show_chen2021_abstract" href="#show_chen2021_abstract" class="hide">abstract (+)</a>
+			<a id="hide_chen2021_abstract" href="#hide_chen2021_abstract" class="show">abstract (-)</a>
 			<p class="details">
 				Jumping spiders (Salticidae) do not rely on webs to capture their prey, but they do spin a silk dragline behind them as they move through their habitat. They also spin this dragline during jumps, continuously connecting them with the surface they leapt from. Since spiders cannot spin silk in advance, this silk must be spun at the same speed as the spider jumps—in effect, requiring spin speeds over ten times faster than typical. Past work in other spider species has found that silk spinning rates in excess of walking and web-building speeds (~2-20mm/s) result in lower quality silk and even dragline failure. Surprisingly, here we found that despite being spun at high speeds (~500-700mm/s; 100-140 body lengths/s), jump-spun silk showed consistent, uniform structure as well as the high-performance qualities characteristic of silk spun by other spiders, including orb-weaving species, at low speeds. Toughness of this jump-spun silk (mean = 281.9MJ/m<sup>3</sup>) even surpassed reported values for all but the toughest orb-weaver draglines. This provides the first evidence that salticids are capable of spinning high-performance silk and are able to do so extremely rapidly under natural conditions.
 			</p>
@@ -309,13 +334,13 @@ canonical_url: 'https://avachen.net/publications'
 <div class="project">
 	<div class="project-thumb"> <img src="/photos/ucl.jpg" alt="thumb device photos"></div>
 	<div class="project-content">
-		<h3>A device for quantitative analysis of the thumb ulnar collateral ligament</h3>
+		<a href="https://asmedigitalcollection.asme.org/BIOMED/proceedings/DMD2018/40789/V001T03A010/271904"><h3>A Device for Quantitative Analysis of the Thumb Ulnar Collateral Ligament</h3></a>
 		<span style="color:#767676">Thomas&nbsp;Cervantes, Woojeong&nbsp;E.&nbsp;Byun*, </span><strong>Ava&nbsp;Chen*</strong><span style="color:#767676">, Kris&nbsp;Kim*, Kaitlyn&nbsp;Nealon*, Jay&nbsp;Connor, and Alexander&nbsp;Slocum</span><br>
 		<em>ASME 2018 Design of Medical Devices Conference</em><br>
 		<div>
 			<a href="https://asmedigitalcollection.asme.org/BIOMED/proceedings/DMD2018/40789/V001T03A010/271904">paper</a> / 
-			<a id="show_cervantes2018" href="#show_cervantes2018" class="hide">abstract (+)</a>
-			<a id="hide_cervantes2018" href="#hide_cervantes2018" class="show">abstract (-)</a>
+			<a id="show_cervantes2018_abstract" href="#show_cervantes2018_abstract" class="hide">abstract (+)</a>
+			<a id="hide_cervantes2018_abstract" href="#hide_cervantes2018_abstract" class="show">abstract (-)</a>
 			<p class="details">
 				A device to quantitatively assess the ulnar collateral ligament of the thumb was developed to facilitate rapid and accurate diagnosis of the ligamentous injury known as Skier’s thumb.
 			</p>
