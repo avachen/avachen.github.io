@@ -12,12 +12,12 @@ canonical_url: 'https://avachen.net/publications'
 </div>
 
 <div class="project">
-	<div class="project-thumb"><img src="/photos/reactemg.jpg" alt="method diagram comparing conventional gesture recognition methods that assume full observability of the entire gesture before assigning a label versus our method that labels a continuous stream of EMG data that can potentially include successive transitions between different gestures as well as periods of holding a same gesture">
+	<div class="project-thumb"><img src="/photos/reactemg.png" alt="method diagram comparing conventional gesture recognition methods that assume full observability of the entire gesture before assigning a label versus our method that labels a continuous stream of EMG data that can potentially include successive transitions between different gestures as well as periods of holding a same gesture">
 	</div>
 	<div class="project-content">
 		<h3>ReactEMG: Zero-Shot, Low-Latency Intent Detection via sEMG</h3>
 		<span style="color:#767676">Runsheng&nbsp;Wang*, Xinyue&nbsp;Zhu*,</span> <strong>Ava&nbsp;Chen</strong><span style="color:#767676">, Jingxi&nbsp;Xu, Lauren&nbsp;Winterbottom, Dawn&nbsp;M.&nbsp;Nilsen, Joel&nbsp;Stein, and Matei&nbsp;Ciocarlie</span><br> 
-		<em>Submitted (Under Review)
+		<em>Preprint
 		</em><br>
 		<a href="https://arxiv.org/abs/2506.19815">arXiv</a>
 		/
@@ -30,7 +30,7 @@ canonical_url: 'https://avachen.net/publications'
 		<a id="show_wang2025_abstract" href="#show_wang2025_abstract" class="hide">abstract (+)</a>
 		<a id="hide_wang2025_abstract" href="#hide_wang2025_abstract" class="show">abstract (-)</a>
 		<p class="details">
-			 Surface electromyography (sEMG) signals show promise for effective human–computer interfaces, particularly in rehabilitation and prosthetics. However, challenges remain in developing systems that respond quickly and reliably to user intent, across different subjects and without requiring time-consuming calibration. In this work, we propose a framework for EMG-based intent detection that addresses these challenges. Unlike traditional gesture recognition models that wait until a gesture is completed before classifying it, ReactEMG uses a segmentation strategy to assign intent labels at every timestep as the gesture unfolds. We introduce a novel masked modeling strategy that aligns muscle activations with their corresponding user intents, enabling rapid onset detection and stable tracking of ongoing gestures. In evaluations against baseline methods, considering both accuracy and stability for device control, our approach surpasses state-of-the-art performance in zero-shot transfer conditions, demonstrating its potential for wearable robotics and next-generation prosthetic systems.
+			 Surface electromyography (sEMG) signals show promise for effective human-machine interfaces, particularly in rehabilitation and prosthetics. However, challenges remain in developing systems that respond quickly and reliably to user intent, across different subjects and without requiring time-consuming calibration. In this work, we propose a framework for EMG-based intent detection that addresses these challenges. We cast intent detection as per-timestep segmentation of continuous sEMG streams, assigning labels as gestures unfold in real time. We introduce a masked modeling training strategy that aligns muscle activations with their corresponding user intents, enabling rapid onset detection and stable tracking of ongoing gestures. In evaluations against baseline methods, using metrics that capture both accuracy and stability for device control, our approach achieves state-of-the-art performance in zero-shot conditions. These results demonstrate its potential for wearable robotics and next-generation prosthetic systems.
 		</p>
 	</div>
 </div>
@@ -351,5 +351,5 @@ canonical_url: 'https://avachen.net/publications'
 <footer class="footer" style="vertical-align:bottom;text-align:left;margin-top:50px;">
 <hr class="line">
 <div>avachen<span style="font-size:9pt;padding-right:1px;padding-left:1px;"><i alt="at sign" class="fas fa-at"></i></span>stanford.edu</div>
-<div>Last Updated:&nbsp; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%m-%d-%Y' }}</time></div>    
+<div>Last Updated:&nbsp; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%d %b %Y' }}</time></div>    
 </footer>
